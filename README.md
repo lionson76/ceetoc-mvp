@@ -3,10 +3,11 @@
 Ready:
 - Sign in page
 - Register page
-- Case page
-- Home bg image
+- Case page (90%)
+- Images: home bg, logo
 
 To come:
+- Case page Discussion column
 - Dashboard
 - Admin dashboard
-- Profile pics
+- Images: profile pics
