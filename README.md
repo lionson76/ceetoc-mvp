@@ -1,6 +1,4 @@
-# ceetoc-mvp
-
-HTML/CSS for MVP
+# HTML/CSS for MVP
 
 Ready:
 - Sign in page
