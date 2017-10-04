@@ -1,0 +1,146 @@
+/* COLORS & TYPOGRAPHY */
+
+body {
+  background-color: #f3f3f3;
+}
+a {
+  color: #1c8717;
+}
+a:hover {
+  color: #0e430b;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, li, input, select, textarea {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+h6 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+p, li {
+  font-weight: 400;
+}
+small {
+  color: #888;
+}
+.bg-primary {
+  background-color: #1c8717 !important;
+}
+.label-box {
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+.label1 {
+  background-color: #ddd;
+  margin: 2rem .75rem 1rem 0;
+  text-transform: uppercase;
+}
+.label2 {
+  border: 1px solid #ddd;
+  margin: 1rem .75rem 1rem 0;
+}
+.card-subtitle, .small {
+  color: #888;
+  font-size: 13px;
+  margin: -1rem 0 0;
+}
+.card-subtitle a, .small a {
+  padding: 0 1px;
+}
+.card-subtitle a:hover, .small a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+}
+
+/* LAYOUT */
+
+#home {
+  background: url('images/bg-home.jpg');
+  background-size: cover;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.title {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.card {
+  border: 0;
+}
+.card-deck > .card {
+  border: 1px solid #ddd;
+}
+.card-subtitle {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1rem;
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+  padding: 0 1.25rem 1rem;
+}
+.profile-pic-sm {
+  height: 30px;
+  margin-right: .75rem;
+  width: 30px;
+}
+.profile-name-sm {
+  display: inline-block;
+}
+.profile-name-sm > .small {
+  margin: -.25rem 0;
+}
+
+/* FORMS AND BUTTONS */
+
+.btn-primary {
+  border: 0;
+  background-color: #1c8717 !important;
+}
+.btn-primary:hover {
+  background-color: #0e430b !important;
+  cursor: pointer;
+}
+.btn-outline-primary {
+  border: 1px solid #ddd;
+  color: #1c8717;
+}
+.btn-outline-primary:hover {
+  background-color: #ddd !important;
+  border-color: #ddd !important;
+  color: #0e430b !important;
+}
+.btn-icon {
+  height: 30px;
+  margin: 0 1rem 0 0;
+  padding: 2px 0 0;
+  width: 30px;
+}
+p.label1 + a.btn-icon {
+  margin: 1rem 1rem 0 0;
+}
+input, select, textarea {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 2px 10px;
+}
+input[type="text"], select {
+  height: 40px;
+}
