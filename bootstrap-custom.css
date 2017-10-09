@@ -66,10 +66,6 @@ small {
   background-color: #ddd;
   text-decoration: none;
 }
-.placeholder-text {
-  color: #1c8717;
-  font-style: italic;
-}
 
 /* LAYOUT */
 
@@ -137,7 +133,7 @@ input, select, textarea {
   color: #000 !important;
 }
 input::placeholder, textarea::placeholder {
-  color: #fd9842 !important;
+  color: #1c8717 !important;
   font-style: italic;
 }
 textarea.tray {
