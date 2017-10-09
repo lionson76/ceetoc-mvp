@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Case | MVP CSS</title>
+<title>Case | CeeTOC</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -9,16 +9,24 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-dark bg-primary">
+	<nav class="navbar navbar-expand navbar-dark bg-primary">
 		<div class="container-fluid">
-			<a class="navbar-brand">CeeTOC</a>
+			<a class="navbar-brand" href="dash.html">CeeTOC</a>
+			<ul class="navbar-nav">
+				<li class="nav-item"><a href="#" class="nav-link">Add Case</a></li>
+				<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Merik Gross</a></li>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Edit Profile</a>
+          <a class="dropdown-item" href="sign-in.html">Sign out</a>
+        </div>
+			</ul>
 		</div>
 	</nav>
 
 	<div class="container-fluid">
 		<div class="row title">
-			<div class="col-xl-8 col-lg-8 col-md-8">
-				<h1>52y M, Melanoma stage IIIA recurred to IIIC</h1>
+			<div class="col-xl-12 col-lg-12 col-md-12">
+				<h1 class="pt-4">52y M, Melanoma stage IIIA recurred to IIIC</h1>
 				<p class="small">Created Mar 2, 2017 | Last Modified Mar 3, 2017 | <a href="#">Edit</a></p>
 			</div>
 		</div>
@@ -48,14 +56,14 @@
 									<p class="small">Mar 2, 4:18 PM | <a href="#">Version 1</a> | <a href="#">Edit</a></p>
 								</div>
 							</div>
-								<div class="card">
-									<div class="card-body">
-										<p class="lead">Surgery and radiation</p>
-										<p class="card-subtitle">Mar 2, 4:18 PM | <a href="#">Edit</a> | <a href="#">Delete</a></p>
-										<p class="card-text">Biopsy showed clean margins.</p>
-										<p class="small">Mar 2, 4:18 PM | <a href="#">Version 1</a> | <a href="#">Edit</a></p>
-									</div>
+							<div class="card">
+								<div class="card-body">
+									<p class="lead">Surgery and radiation</p>
+									<p class="card-subtitle">Mar 2, 4:18 PM | <a href="#">Edit</a> | <a href="#">Delete</a></p>
+									<p class="card-text">Biopsy showed clean margins.</p>
+									<p class="small">Mar 2, 4:18 PM | <a href="#">Version 1</a> | <a href="#">Edit</a></p>
 								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -65,12 +73,27 @@
 				<div class="card">
 					<div class="card-body">
 						<p class="card-text">(1) Drug A - BRAF inhibitors , (2) Drug B - MEK inhibitors, (3) combos of A & B, (4) Drug C - PD-1 Inhibitor (separately)?</p>
-						<div class="float-left"><img src="images/Gross-Merik.png" class="profile-pic-sm" /></div>
-						<div class="profile-name-sm">
-							<p class="small">Merik Gross</p>
-							<p class="small">Mar 2, 4:18 PM</p>
+						<div class="float-left"><img src="images/profile-GrossM.png" class="profile-pic" /></div>
+						<div class="profile-name">
+							<p class="small ml-2">Merik Gross<br>Mar 2, 4:18 PM</p>
 						</div>
 						<div class="float-right"><a href="#" class="btn btn-primary btn-sm" role="button">Reply</a></div>
+						<div class="reply-indent">
+							<p class="card-text">This is the state of the field; The clinical trials evaluating these drugs (and their different versions) are not straightforward to compare because of difference in endpoints - recurrence versus survival.</p>
+							<div class="float-left"><img src="images/profile-GrossM.png" class="profile-pic" /></div>
+							<div class="profile-name">
+								<p class="small ml-2">Merik Gross<br>Mar 2, 4:18 PM</p>
+							</div>
+							<div class="float-right"><a href="#" class="btn btn-primary btn-sm" role="button">Reply</a></div>
+						</div>
+						<div class="reply-indent">
+							<p class="card-text">PDL-1 inhibitors is a new type and overlaps with PD-1 Drug in its activity and trials.</p>
+							<div class="float-left"><img src="images/profile-GrossM.png" class="profile-pic" /></div>
+							<div class="profile-name">
+								<p class="small ml-2">Merik Gross<br>Mar 2, 4:18 PM</p>
+							</div>
+							<div class="float-right"><a href="#" class="btn btn-primary btn-sm" role="button">Reply</a></div>
+						</div>
 					</div>
 				</div>
 			</div>

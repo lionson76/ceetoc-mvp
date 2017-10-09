@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Sign in | CeeTOC</title>
+<title>Add User | CeeTOC</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -16,23 +16,42 @@
 				<img src="images/logo-big.png" width="75%" height="75%" class="mx-auto d-block mb-5" />
 				<div class="card">
 					<div class="card-body">
-						<h6>Sign in</h6>
+						<h6>Add User</h6>
 						<form>
+							<div class="form-row">
+								<div class="form-group col-6">
+									<label class="col-form-label" for="firstname">First name</label>
+									<input type="text" class="form-control" id="inputfirst" required>
+								</div>
+								<div class="form-group col-6">
+									<label class="col-form-label" for="lastname">Last name</label>
+									<input type="text" class="form-control" id="inputlast" required>
+								</div>
+							</div>
 							<div class="form-group">
 								<label class="form-control-label" for="email">Email address</label>
-								<input type="email" class="form-control" id="inputemail" tabindex="1" required>
+								<input type="email" class="form-control" id="inputemail" required>
 							</div>
 							<div class="form-group">
-    						<label class="form-control-label" for="password">Password</label>
-								<small class="float-right" style="padding-top: .25rem;"><a href="#">Forgot?</a></small>
-    						<input type="password" class="form-control" id="inputpassword" tabindex="2" required>
+								<label class="form-control-label" for="group">Group</label>
+								<select class="form-control" id="selectgroup" required>
+									<option>Group 1</option>
+									<option>Group 2</option>
+								</select>
 							</div>
 							<div class="form-group">
-								<label class="form-check-label">
-									<input class="form-check-input" type="checkbox" tabindex="3"> Remember me
-				        </label>
+								<label class="form-control-label">Profile picture</label>
+								<input type="file" class="form-control-file" id="inputfile">
+								<small>JPG or PNG at least 200px x 200px</small>
   						</div>
-							<button type="submit" class="btn btn-primary btn-lg btn-block" tabindex="4">Sign in</button>
+							<div class="form-row">
+								<div class="form-group col-6">
+									<button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+								</div>
+								<div class="form-group col-6">
+									<button type="submit" class="btn btn-secondary btn-lg btn-block">Cancel</button>
+								</div>
+							</div>
 						</form>
 					</div>
 				</div>
