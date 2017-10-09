@@ -2,9 +2,10 @@
 
 Ready:
 - Sign in page
-- Register page
-- Case page: PS, DDx, Tx w/ sample content
-- Case page: Discussion column, empty states
 - Dashboard
+- Case page
 - Admin dashboard
+- Add user, Add group
+- Dropdown menu for Edit profile, Sign out
+- Edit profile
 - Images: home bg, logo, M. Gross profile pic, default profile pic
