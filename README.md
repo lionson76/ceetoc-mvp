@@ -1,5 +1,11 @@
 # HTML/CSS for MVP
 
+10/16/17
+Updates:
+- case-edit.html
+- modal-history.html
+-bootstrap-custom.css
+
 Ready:
 - Sign in page
 - Dashboard
