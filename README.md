@@ -4,7 +4,7 @@
 Updates:
 - case-edit.html
 - modal-history.html
--bootstrap-custom.css
+- bootstrap-custom.css
 
 Ready:
 - Sign in page
