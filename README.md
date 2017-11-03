@@ -4,6 +4,8 @@
 - case.html
 - case-edit.html
 - case-new.html
+- dash.html
+- dash-admin.html
 
 10/19/17 updates:
 - password.html
