@@ -1,11 +1,16 @@
 # HTML/CSS for MVP
 
-10/19/17 Updates:
+11/3/17 updates:
+- case.html
+- case-edit.html
+- case-new.html
+
+10/19/17 updates:
 - password.html
 - password-reset.html
 - password-reset-confirm.html
 
-10/16/17 Updates:
+10/16/17 updates:
 - case-edit.html
 - modal-history.html
 - bootstrap-custom.css
