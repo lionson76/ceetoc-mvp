@@ -195,6 +195,10 @@ textarea.tray {
   padding: 2px 0 0;
   width: 30px;
 }
+.disabled {
+  background-color: #ddd !important;
+  border-color: #ddd !important;
+}
 p.label1 + a.btn-icon {
   margin: 1rem 1rem 0 0;
 }
