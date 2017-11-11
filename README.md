@@ -1,6 +1,10 @@
 # HTML/CSS for MVP
 
 11/10/17 updates:
+- Added new sequence for 1, 2, and 3 Tx options:
+  - case-1tx.html
+  - case-2tx.html
+  - case-3tx.html
 - Added new sequence for CO adding comment and inviting CC:
   - case-co1.html
   - case-co2.html
@@ -9,7 +13,9 @@
   - case-cc1.html
   - case-cc2.html
   - case-cc3.html
-- New class for disabled button style added to bootstrap-custom.css
+- New classes in bootstrap-custom.css for:
+  - tx cards
+  - disabled button
 
 11/3/17 updates:
 - case.html
