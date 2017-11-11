@@ -1,5 +1,16 @@
 # HTML/CSS for MVP
 
+11/10/17 updates:
+- Added new sequence for CO adding comment and inviting CC:
+  - case-co1.html
+  - case-co2.html
+  - case-co3.html
+- Added new sequence for CC replying to CO:
+  - case-cc1.html
+  - case-cc2.html
+  - case-cc3.html
+- New class for disabled button style added to bootstrap-custom.css
+
 11/3/17 updates:
 - case.html
 - case-edit.html
