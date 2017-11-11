@@ -92,7 +92,7 @@ small {
 .card {
   border: 0;
 }
-.card-deck > .card {
+.card .tx {
   border: 1px solid #ddd;
 }
 .card-subtitle {

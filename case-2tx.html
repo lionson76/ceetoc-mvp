@@ -61,10 +61,24 @@
 							<div class="col-6 pb-3">
 								<div class="card tx">
 									<div class="card-body">
-										<p class="lead">Surgery and radiation</p>
-										<p class="card-subtitle">Mar 2, 4:58 PM | <a href="#">Edit</a> | <a href="#">Delete</a></p>
-										<p class="card-text">Biopsy showed clean margins.</p>
-										<p class="small">Mar 2, 5:01 PM | <a href="#">Version 1</a> | <a href="#">Edit</a></p>
+										<form action="case.html">
+						  				<div class="form-row">
+												<div class="form-group col-10">
+													<input type="text" class="form-control form-control" id="tx" placeholder="Add a treatment option.">
+						  					</div>
+												<div class="form-group col-2">
+													<button type="submit" class="btn btn-primary btn btn-block">Save</button>
+												</div>
+											</div>
+										</form>
+										<form>
+											<div class="form-group">
+												<textarea class="form-control tray" id="tx-info" placeholder="Provide pertinent information."></textarea>
+												<div class="btn-tray">
+													<button type="submit" class="btn btn-primary">Save</button><button type="submit" class="btn btn-secondary">Clear</button>
+												</div>
+											</div>
+										</form>
 									</div>
 								</div>
 							</div>
